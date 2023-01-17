@@ -38,7 +38,7 @@ In order to load a video and record the activity, load jQuery (1.7.2) and Popcor
 					}
 					);
 			
-			video1.on("pause", function() {
+			video.on("pause", function() {
 					t_ara.setTime(Date.now());
 					$.post("recorder.php", {
 					ti: t_ini.toUTCString(),
